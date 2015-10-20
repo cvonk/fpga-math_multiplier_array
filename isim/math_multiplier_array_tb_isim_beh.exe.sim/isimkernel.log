@@ -1,0 +1,29 @@
+Command line:
+   math_multiplier_array_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63211
+
+Tue Oct 20 10:26:18 2015
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 837.059 Meg
+
+ Total Signals          : 139
+ Total Nets             : 149
+ Total Signal Drivers   : 95
+ Total Blocks           : 19
+ Total Primitive Blocks : 17
+ Total Processes        : 97
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 303
+Total Line Count : 71
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 837.059 Meg
+
+Tue Oct 20 10:26:32 2015
+

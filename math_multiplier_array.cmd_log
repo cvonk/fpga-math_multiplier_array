@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Coert/Documents/GitHub/fpga-math-multiply-array/math_multiplier_array.xst" -ofn "C:/Users/Coert/Documents/GitHub/fpga-math-multiply-array/math_multiplier_array.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc math_multiplier_array.ucf -p xc6slx9-csg324-2 math_multiplier_array.ngc math_multiplier_array.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o math_multiplier_array_map.ncd math_multiplier_array.ngd math_multiplier_array.pcf 
+par -w -intstyle ise -ol high -mt off math_multiplier_array_map.ncd math_multiplier_array.ncd math_multiplier_array.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml math_multiplier_array.twx math_multiplier_array.ncd -o math_multiplier_array.twr math_multiplier_array.pcf -ucf math_multiplier_array.ucf 
